@@ -26,9 +26,9 @@ Graphing will not start if functions are entered incorrectly (if python can't pa
 -Roots of the system f(x) = 0 are searched for with sympy's numerical and symbolic methods: sympy.solve & sympy.nsolve .
 The starting points for the numerical search start as a grid based on the graphed interval, then are passed to the functions,
 and if the values of the evaluated functions are sufficiently close to 0,
-they are passed to sympy, so changing the interval will likely change the detected roots.
+they are passed to sympy, so changing the interval will likely change the numerically detected roots.
 
--The symbolic search is limited to execute for at most 15s (2s in 4D case) because in some instances it will begin looking for complex roots
+-The symbolic search is limited to execute for at most 15s (20s in 4D case) because in some instances it will begin looking for complex roots
 instead of real ones and there may be large / unlimited amount of those.
 
 -The trajectories are plotted from the functions by computing gradients and updating the value of the variable at every step.
