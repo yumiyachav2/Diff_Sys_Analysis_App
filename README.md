@@ -4,11 +4,15 @@ app for analysis of differential equations of the form dx/dt = f(x), x = [x1, x2
 ###Features of the app:
 
 The app allows graphing the nullclines / nullplanes of functions with multiple variables and parameters (1 - 3D, no graph for 4d).
+
 The steady states of the system are searched for numerically and symbolically. They are displayed on the graph
 and in a separate section along with the Jacobian and are color coded based on their stability.
+
 Clicking on a steady state button displays it's full coordinates, eigenvalues and stability description.
 The graph can be resized to fit in an interval input by the user.
+
 Jacobian and its eigenvalues can be evaluated at any custom point.
+
 The user can input starting coordinates and a time frame to simulate the evolution of variables with time,
 displaying the phase plane space graph (2 and 3D) and the variable / time graph.
 
