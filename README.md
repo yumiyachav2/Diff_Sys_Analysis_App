@@ -2,6 +2,7 @@
 app for analysis of differential equations of the form dx/dt = f(x), x = [x1, x2, ..., xn], 1&lt;=n&lt;=4 
 
 ###Features of the app:
+
 The app allows graphing the nullclines / nullplanes of functions with multiple variables and parameters (1 - 3D, no graph for 4d).
 The steady states of the system are searched for numerically and symbolically. They are displayed on the graph
 and in a separate section along with the Jacobian and are color coded based on their stability.
@@ -12,6 +13,7 @@ The user can input starting coordinates and a time frame to simulate the evoluti
 displaying the phase plane space graph (2 and 3D) and the variable / time graph.
 
 ###Some technical info:
+
 The functions are parsed from user text input and variables and parameters are automatically detected.
 Graphing will not start if functions are entered incorrectly (if python can't parse them).
 Graphing complex systems can take a moment and the app can be unresponsive during the process, but it is still running.
@@ -26,6 +28,7 @@ For small times the number of samples taken is 15000 * time,
 and the number decreases for large times to increase performance, down to 4300 * time for time = 999 which is the cap.
 
 ###Some issues:
+
 The app will go unresponsive when performing large amount of calculations, but it is still working.
 The steady states will not always be detected,
 in those cases resizing the graph to increase density of search starting points around the root can help.
