@@ -1,5 +1,5 @@
 # Differential System Analysis App
-- app for analysis of differential equations of the form :  $$\;\;\;\;\;\;\frac{dx}{dt} = f(\underline{x});\;\;\; \underline{x} = [x_1, x_2, ..., x_n],\;\;\;\; 1 \le{n} \le{4}$$
+- app for analysis of differential equations of the form :  $$\\;\\;\\;\\;\\;\\;\frac{dx}{dt} = f(\underline{x}),\\;\\;\\; \underline{x} = [x_1, x_2, ..., x_n],\\;\\;\\;\\; 1 \le{n} \le{4}$$
 
 ### Features of the app:
 
